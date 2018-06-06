@@ -45,7 +45,7 @@ def delete_artist
   songs = music_library.keys
   artists = music_library.values
   variable = gets.chomp
-  artists.delete(variable)
+  music_library.delete(variable)
   puts music_library
 end
 puts delete_artist
