@@ -63,5 +63,11 @@ music_library = {
   }
   songs = music_library.keys
   artists = music_library.values
-  music_library[songs]
-
+  puts "what is the song?"
+  songs = gets.chomp
+  puts "who is the artist?"
+  artists = gets.chomp
+  music_library[songs] = artists
+  puts music_library
+end
+puts add
