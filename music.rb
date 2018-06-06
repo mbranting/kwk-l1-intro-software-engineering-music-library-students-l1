@@ -42,8 +42,8 @@ def delete_artist
     "Waiting for Love" => "Avicii",
     "Castle" => "Halsey"
   }
-  songs = music_library.keys
-  artists = music_library.values
+  artists = music_library.keys
+  songs = music_library.values
   variable = gets.chomp
   music_library.delete(variable)
   puts music_library
